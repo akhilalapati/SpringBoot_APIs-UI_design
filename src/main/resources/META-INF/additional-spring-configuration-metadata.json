@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "application.mapperChoice.manipulateMapper",
+      "type": "java.lang.String",
+      "description": "Description for application.mapperChoice.manipulateMapper."
+  }
+] }
