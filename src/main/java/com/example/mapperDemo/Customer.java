@@ -17,14 +17,6 @@ public class Customer {
 
     private String customerEmail;
 
-    private String phoneNumber;
-
-    private String whatsAppNumber;
-
-    private String city;
-
-    private LocalDate dob;
-
     public Customer(String customerName, String customerEmail) {
         this.customerName = customerName;
         this.customerEmail = customerEmail;
@@ -56,48 +48,4 @@ public class Customer {
         this.customerEmail = customer_email;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getWhatsAppNumber() {
-        return whatsAppNumber;
-    }
-
-    public void setWhatsAppNumber(String whatsAppNumber) {
-        this.whatsAppNumber = whatsAppNumber;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setDob(LocalDate dob){
-        this.dob = dob;
-    }
-
-    public LocalDate getDob() {
-        return dob;
-    }
-
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "customer_id=" + customerId +
-                ", customer_name='" + customerName + '\'' +
-                ", customer_email='" + customerEmail + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", whatsAppNumber='" + whatsAppNumber + '\'' +
-                ", city='" + city + '\'' +
-                ", dob='" + dob + '\'' +
-                '}';
-    }
 }

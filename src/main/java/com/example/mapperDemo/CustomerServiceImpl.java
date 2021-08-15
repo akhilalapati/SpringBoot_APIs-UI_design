@@ -14,9 +14,6 @@ public class CustomerServiceImpl implements CustomerService{
     private CustomerRespository customerRespository;
 
     @Autowired
-    private ApplicationProperties applicationProperties;
-
-    @Autowired
     CustomerMapper customerMapper;
 
     @Autowired
